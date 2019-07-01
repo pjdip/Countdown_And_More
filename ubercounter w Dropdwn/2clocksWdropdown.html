@@ -1,0 +1,74 @@
+<head>
+<link rel="stylesheet" type="text/css" href="Honey_Returns1.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="Anniversary1.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="dropdown.css" media="screen" />
+</head>
+
+
+<body>
+
+<h1>Please choose a clock (or clocks)</h1>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Honey Clocks</button>
+  <div id="myDropdown" class="dropdown-content">
+    <button onclick="reveal('Honey_Returns')">Honey Returns</button>
+    <button onclick="reveal('Honey_Anniversary')">Honey Anniversary</button>
+  </div>
+</div>
+
+<!-- have button that toggles change the header as well
+then each clock doesn't need it's own header
+or something like that -->
+
+<div id="Honey_Returns">
+  <h1 id="return_head">Honey Returns</h1>
+
+  <div id="return_clockdiv">
+    <div>
+      <span class="days"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+</div>
+
+<div id="Honey_Anniversary">
+  <h1 id="anniversary_head">Honey Anniversary</h1>
+
+  <div id="anniversary_clockdiv">
+    <div>
+      <span class="days"></span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours"></span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="Anniversary1.js"></script>
+<script type="text/javascript" src="Honey_Returns1.js"></script>
+<script type="text/javascript" src="dropdown.js"></script>
+
+</body>
