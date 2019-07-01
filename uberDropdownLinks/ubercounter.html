@@ -6,10 +6,10 @@
 
 <body>
 
-<h1>Please choose a clock (or clocks)</h1>
+<h1>Open The Menu and Just Start Clickin' Shit</h1>
 
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Honey Clocks</button>
+  <button onclick="drpdwnOpen()" class="dropbtn">Honey Clocks</button>
   <div id="myDropdown" class="dropdown-content">
     <button onclick="reveal('China')">Honey Returns</button>
     <button onclick="reveal('Transformus')">Transformus</button>
@@ -18,7 +18,9 @@
     <button onclick="reveal('BMSR')">Black Moth Super Rainbow</button>
     <button onclick="reveal('Honey_Anniversary')">Honey Anniversary</button>
     <!-- <button onclick="window.location.href='https://pjdip.github.io/AnniversaryBackground/Anniversary.html';">Honey Anniversary2</button> -->
-    <button onclick="window.open('https://pjdip.github.io/AnniversaryBackground/Anniversary.html', '_blank')">Honey Anniversary2</button>
+    <button onclick="window.open('https://pjdip.github.io/AnniversaryBackground/Anniversary.html', '_blank')">Honey Anniversary Tab</button>
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Honey! Look I Learned a New Thing Today!!</button>
   </div>
 </div>
 
@@ -171,8 +173,27 @@
   </div>
 </div>
 
-<script type="text/javascript" src="ubercounter.js"></script>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>I Love You Lawts '<3'</h2>
+    </div>
+    <div class="modal-body">
+      <h4>This is What is Known as a Modal</h4>
+      <p>"A modal window is any type of window that is a child (secondary window) to a parent </p>
+      <p>window and usurps the parent's control. It is commonly associated with an Internet </p>
+      <p>Web site pop-up window that stays in front of the original window."</p>
+    </div>
+    <div class="modal-footer">
+      <h3>In Conclusion: Puppies Are Dope</h3>
+    </div>          
+  </div>
+</div>
 
+<script type="text/javascript" src="ubercounter.js"></script>
 </body>
 </html>
 
