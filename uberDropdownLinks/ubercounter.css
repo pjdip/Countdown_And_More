@@ -195,6 +195,41 @@ the .dropdown-content container when the user clicks on the dropdown button) */
 	display: inline-block;
 }
 
+#Sensorium{
+	display:none;
+}
+
+#sensorium_head{
+	color: #396;
+	font-family: 'Fascinate Inline', cursive;
+	font-weight: 100;
+	font-size: 40px;
+	margin: 40px 0px 20px;
+}
+
+#sensorium_clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#sensorium_clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#sensorium_clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
 #BMSR{
 	display:none;
 }
@@ -226,6 +261,41 @@ the .dropdown-content container when the user clicks on the dropdown button) */
 }
 
 #bmsr_clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+#Tobacco{
+	display:none;
+}
+
+#tobacco_head{
+	color: #396;
+	font-family: 'Creepster', cursive;
+	font-weight: 100;
+	font-size: 40px;
+	margin: 40px 0px 20px;
+}
+
+#tobacco_clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#tobacco_clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#tobacco_clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
 	background: #00816A;

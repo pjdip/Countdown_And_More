@@ -61,9 +61,9 @@ function reveal(myDIV) {
    var x = document.getElementById(myDIV);
    if (x.style.display == "") {
      x.style.display = "block";
-   } else if (x.style.display == "none") {
+    } else if (x.style.display == "none") {
      x.style.display = "block";
-   } else {
+    } else {
      x.style.display = "none";
    }
  }
@@ -75,6 +75,9 @@ function reveal(myDIV) {
  var china_deadline = new Date(2019, 6, 9, 21, 15, 0)
  var otakon_deadline = new Date(2019, 6, 26, 8, 0, 0)
  var transformus_deadline = new Date(2019, 6, 18, 12, 0, 0)
+ var sensorium_deadline = new Date(2019, 7, 24, 12, 0, 0)
+ var tobacco_deadline = new Date(2019, 9, 19, 7, 0, 0)
+
 
 initializeClock('transformus_clockdiv', transformus_deadline);
 initializeClock('otakon_clockdiv', otakon_deadline);
@@ -82,6 +85,8 @@ initializeClock('china_clockdiv', china_deadline);
 initializeClock('bmsr_clockdiv', bmsr_deadline);
 initializeClock('bellwether_clockdiv', bellwether_deadline);
 initializeClock('anniversary_clockdiv', anniversary_deadline);
+initializeClock('tobacco_clockdiv', tobacco_deadline);
+initializeClock('sensorium_clockdiv', sensorium_deadline);
 
 // Get the modal
 var modal = document.getElementById("myModal");
